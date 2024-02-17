@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Story</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/style.js" defer></script>
+</head>
+<body>
+
+<h1>Create Your Story</h1>
+
+<button onclick="selectWord('noun')">Select Noun</button>
+<button onclick="selectWord('verb')">Select Verb</button>
+<button onclick="selectWord('adjective')">Select Adjective</button>
+<button onclick="selectWord('adverb')">Select Adverb</button>
+<button onclick="selectWord('place')">Select Place</button>
+
+<button onclick="showSelectedStory()">Show Selected Story</button>
+<button onclick="generateRandomStory()">Generate Random Story</button>
+
+<div id="selected-words"></div>
+<div id="story"></div>
+
+
+</body>
+</html>

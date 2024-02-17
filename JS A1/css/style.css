@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #ffdaec;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #ff62b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+button:hover {
+    background-color: #ff007b;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    color: #880e4f;
+}
+
+#selected-words {
+    margin-top: 20px;
+    font-weight: bold;
+    transition: opacity 0.5s ease-in-out;
+    color: #880e4f;
+}
+
+#story {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+    transition: opacity 0.5s ease-in-out;
+    color: #880e4f;
+}
+
